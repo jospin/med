@@ -1,0 +1,38 @@
+fieldset{
+	border: solid 1px #497958;
+	float:left;
+	width:620px;
+}
+
+#fotos{
+	width:380px;
+}
+
+#salvar{
+	clear:both;
+	width:100%;
+}
+
+fieldset legend{
+}
+
+ol{
+	list-style: none;
+}
+
+ol li{
+	margin:2px;
+}
+label {
+	display:block;
+	width:195px;
+	float:left;
+}
+
+input, textarea, select {
+	border: solid 1px #000;
+}
+
+input:focus, textarea:focus, select:focus {
+	border: solid 1px #497958;
+}

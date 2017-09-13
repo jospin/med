@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<link rel="shortcut icon" href="images/content/favicon.ico" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="" />
+<meta name="title" content="" />
+<meta name="description" content="" />
+<title>Lighthouse</title>
+<link rel="shortcut icon" href="images/content/favicon.ico" />
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/inner.css" rel="stylesheet" type="text/css" />
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/PT_Sans_400.font.js"></script>
+<script type="text/javascript">
+	 Cufon.replace('h1') ('h2') ('h3') ('h4') ('h5') ('h6') ('.slider-button a') ('.slider-price') ('.button') ('#nav li a', {hover: true});
+	 
+</script>
+<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="js/hoverIntent.js"></script> 
+<script type="text/javascript" src="js/superfish.js"></script> 
+<script type="text/javascript" src="js/supersubs.js"></script> 
+<script type="text/javascript"> 
+ var $jts = jQuery.noConflict();
+    $jts(document).ready(function(){ 
+        $jts("ul.sf-menu").supersubs({ 
+		minWidth		: 9,		// requires em unit.
+		maxWidth		: 25,		// requires em unit.
+		extraWidth		: 0			// extra width can ensure lines don't sometimes turn over due to slight browser differences in how they round-off values
+                               // due to slight rounding differences and font-family 
+        }).superfish();  // call supersubs first, then superfish, so that subs are 
+                         // not display:none when measuring. Call before initialising 
+                         // containing tabs for same reason. 
+    }); 
+ 
+</script>
+<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript">
+ var $jts = jQuery.noConflict();
+    $jts(document).ready(function(){ 
+		
+		//Slider  
+         $jts('#slideshow').cycle({
+            timeout: 5000,  // milliseconds between slide transitions (0 to disable auto advance)
+            fx:      'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...            
+            pager:   '#pager',  // selector for element to use as pager container
+            pause:   0,	  // true to enable "pause on hover"
+            pauseOnPagerHover: 0 // true to pause when hovering over pager link
+        });
+     });
+</script>
+
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG.js"></script>
+<script>
+  DD_belatedPNG.fix('img');
+</script>
+
+<![endif]--> 
+</head>
+<body>
+
+	<div id="top-container">
+		<div class="centercolumn">
+		<div id="header">
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="" /></a>
+			</div><!-- end #logo -->
+			<div id="navigation">
+				<ul id="nav" class="sf-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a>
+						<ul>
+							<li><a href="styling.html">HTML Styling</a></li>
+							<li><a href="column.html">Column Layouts</a></li>
+							<li><a href="#">Example Dropdown</a>
+								<ul>
+									<li><a href="#">More Menu</a></li>
+									<li><a href="#">More Menu</a></li>
+									<li><a href="#">More Menu</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">Property</a>
+						<ul>
+							<li><a href="property-list.html">Property List</a></li>
+							<li><a href="property-grid.html">Property Grid</a></li>
+							<li><a href="property-details.html">Property Details</a></li>
+						</ul>
+					</li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="blog.html" class="current">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div><!-- end #navigation-->
+			<div class="clr"></div>
+		</div><!-- end #header -->
+		</div><!-- end #centercolumn -->
+	</div><!-- end #top-container -->
+	
+	
+	<div class="centercolumn">
+			
+		<div id="maincontent">
+			<div id="content">
+				<h2 class="underline">Our Blog</h2>
+				<p>Phasellus vel sagittis lorem. Suspendisse sed ante eget felis mattis cursus. Maecenas nec lacus at odio sagittis porttitor. Morbi pretium quam ac lorem pretium et viverra sapien mollis. Curabitur viverra lectus metus. Ut eget massa eros, sed tristique tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce in nunc nulla. Proin posuere purus est, ut ornare enim. Fusce ut lectus nisl. Sed posuere ligula et metus consequat non tempus nunc luctus. Curabitur vel felis a lorem tempus convallis. Pellentesque non tempus ipsum. Duis sem justo, blandit eu elementum ac, mattis ut nulla. Duis rutrum porta dolor consequat dictum. Sed vulputate lacinia nulla, vitae venenatis tortor luctus non. Sed imperdiet eros vitae nisl mollis porta. Etiam ultrices eros ut risus blandit imperdiet. </p>
+				
+				<ul class="two_column">
+					<li>
+						<div class="post">
+							<h2 class="posttitle"><a href="#">Home Finance</a> </h2>
+							<div class="entry-utility">February, 20 2011  Post by: Admin | 7 Comments  </div>
+		
+							<div class="entry">
+							<img src="images/content/blog-img1.jpg" alt="" />
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at magna ornare justo pharetra congue sed et elit. Nunc lacinia ultricies iaculis. Morbi dolor risus, commodo a euismod at, sodales id ipsum.  </p>
+							</div>
+						</div><!-- end post -->
+					</li>
+					<li class="nomargin">
+						<div class="post">
+							<h2 class="posttitle"><a href="#">Home Value</a> </h2>
+							<div class="entry-utility">February, 20 2011  Post by: Admin | 7 Comments  </div>
+		
+							<div class="entry">
+							<img src="images/content/blog-img2.jpg" alt="" />
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at magna ornare justo pharetra congue sed et elit. Nunc lacinia ultricies iaculis. Morbi dolor risus, commodo a euismod at, sodales id ipsum.  </p>
+							</div>
+						</div><!-- end post -->
+					</li>
+					<li>
+						<div class="post">
+							<h2 class="posttitle"><a href="#">Home &amp; Garden</a> </h2>
+							<div class="entry-utility">February, 20 2011  Post by: Admin | 7 Comments  </div>
+		
+							<div class="entry">
+							<img src="images/content/blog-img3.jpg" alt="" />
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at magna ornare justo pharetra congue sed et elit. Nunc lacinia ultricies iaculis. Morbi dolor risus, commodo a euismod at, sodales id ipsum.  </p>
+							</div>
+						</div><!-- end post -->
+					</li>
+					<li class="nomargin">
+						<div class="post">
+							<h2 class="posttitle"><a href="#">On Sales</a> </h2>
+							<div class="entry-utility">February, 20 2011  Post by: Admin | 7 Comments  </div>
+		
+							<div class="entry">
+							<img src="images/content/blog-img4.jpg" alt="" />
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at magna ornare justo pharetra congue sed et elit. Nunc lacinia ultricies iaculis. Morbi dolor risus, commodo a euismod at, sodales id ipsum.  </p>
+							</div>
+						</div><!-- end post -->
+					</li>
+				</ul>
+				
+			</div><!-- end #content -->
+			
+			<div class="sidebar_right">
+			<div class="sidebar">
+				<ul>
+					<li class="widget-container widget_recentpost">
+						<h2 class="widget-title">Recent Blog Post</h2>
+						<ul>
+							<li><img src="images/content/small-img1.jpg" alt="" class="alignleft"/><span class="date">February, 20 2011</span><br />
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at posuere eros. Donec molestie molestie elementum. <a href="#">Read More...</a></li>
+							<li><img src="images/content/small-img2.jpg" alt="" class="alignleft"/><span class="date">February, 8 2011</span><br />
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at posuere eros. Donec molestie molestie elementum. <a href="#">Read More...</a></li>
+							<li><img src="images/content/small-img3.jpg" alt="" class="alignleft"/><span class="date">February, 20 2011</span><br />
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at posuere eros. Donec molestie molestie elementum. <a href="#">Read More...</a></li>
+						</ul>
+					</li>
+				
+					<li class="widget-container widget_categories">
+						<h2 class="widget-title">Categories</h2>
+						<ul>
+							<li><a href="#">Resources</a></li>
+							<li><a href="#">House Remodeling</a></li>
+							<li><a href="#">Luxury Homes</a></li>
+							<li><a href="#">Find a Contractor</a></li>
+							<li><a href="#">First Time Buyer</a> </li>
+							<li><a href="#">Free Moving Quote</a></li>
+							<li><a href="#">Gardening</a></li>
+							<li><a href="#">Local Constractors</a></li>
+							<li><a href="#">Rent and Buy</a></li>
+							
+							<li><a href="#">New Homes</a></li>
+							<li><a href="#">Apartment Rentals</a></li>
+							<li><a href="#">Trend Blogs</a></li>
+							<li><a href="#">Assisted Living</a></li>
+							<li><a href="#">Property Search</a></li>
+							<li><a href="#">Property Status</a></li>
+							<li><a href="#">Property Types</a></li>
+							<li><a href="#">Open Houses</a></li>
+							<li><a href="#">Listing Activity</a></li>
+						</ul>
+					</li>
+				</ul>
+            </div><!-- end #sidebar -->
+			</div><!-- end #sidebar_right -->
+			
+			<div class="clear"></div>
+		</div><!-- end #maincontent -->
+	</div><!-- end #centercolumn -->
+	
+	
+	<div id="bottom-container">
+		<div class="centercolumn">
+		
+			<div id="footer">
+				<div id="footer-left">
+					<div class="one_fourth">
+						<ul>
+							<li class="widget-container">
+								<h2 class="widget-title">Company</h2>
+								<ul>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Clients</a></li>
+									<li><a href="#">Presentation</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- end #one_fourth -->
+					<div class="one_fourth">
+						<ul>
+							<li class="widget-container">
+								<h2 class="widget-title">For Clients</h2>
+								<ul>
+									<li><a href="#">Sign Up </a></li>
+									<li><a href="#">Forum</a></li>
+									<li><a href="#">Promitions</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- end #one_fourth -->
+					<div class="one_fourth">
+						<ul>
+							<li class="widget-container">
+								<h2 class="widget-title">FAQs</h2>
+								<ul>
+									<li><a href="#">Support </a></li>
+									<li><a href="#">FAQs</a></li>
+									<li><a href="#">Website</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- end #one_fourth -->
+					<div class="one_fourth last">
+						<ul>
+							<li class="widget-container">
+								<h2 class="widget-title">Properties</h2>
+								<ul>
+									<li><a href="#">Luxury</a></li>
+									<li><a href="#">Residental</a></li>
+									<li><a href="#">Commercial</a></li>
+									<li><a href="#">Hometown</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- end #one_fourth -->
+				</div><!-- end #footer-left -->
+				<div id="footer-right">
+							<h2>NewsLetter Sign Up:</h2>
+							<form  method="get" action="" id="newsLetter">
+							<div><input type="text" class="inputbox" value="Enter your email here..." onblur="if (this.value == ''){this.value = 'Enter your email here...'; }" onfocus="if (this.value == 'Enter your email here...') {this.value = ''; }"/><br />
+<input type="submit" name="submit" class="button" value="subscribe"/></div>
+							</form>
+				</div><!-- end #footer-right -->
+			</div>
+			<div class="clear"></div>
+			<div id="copyright">Copyright © 2011 <a href="#">Light House</a>. All Rights Reserved</div>
+			<!-- end #foot -->
+		</div><!-- end #centercolumn -->
+		<div class="clear"></div>
+	</div><!-- end #bottom-container -->
+	<script type="text/javascript"> Cufon.now(); </script> <!-- to fix cufon problems in IE browser -->
+</body>
+</html>

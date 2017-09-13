@@ -1,0 +1,70 @@
+10
+
+dir
+0
+http://svn.crisdev.eti.br/escoladomax/cms/_lib/smarty/libs
+http://svn.crisdev.eti.br/escoladomax
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ceeab0a5-5d5c-4194-80ce-2bcb3b8788f2
+
+internals
+dir
+
+
+
+add
+
+plugins
+dir
+
+
+
+add
+
+Smarty_Compiler.class.php
+file
+
+
+
+add
+
+debug.tpl
+file
+
+
+
+add
+
+Smarty.class.php
+file
+
+
+
+add
+
+Config_File.class.php
+file
+
+
+
+add
+

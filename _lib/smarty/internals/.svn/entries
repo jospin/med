@@ -1,0 +1,182 @@
+10
+
+dir
+0
+http://svn.crisdev.eti.br/escoladomax/cms/_lib/smarty/internals
+http://svn.crisdev.eti.br/escoladomax
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ceeab0a5-5d5c-4194-80ce-2bcb3b8788f2
+
+core.assign_smarty_interface.php
+file
+
+
+
+add
+
+core.load_resource_plugin.php
+file
+
+
+
+add
+
+core.rm_auto.php
+file
+
+
+
+add
+
+core.write_compiled_include.php
+file
+
+
+
+add
+
+core.write_cache_file.php
+file
+
+
+
+add
+
+core.process_cached_inserts.php
+file
+
+
+
+add
+
+core.rmdir.php
+file
+
+
+
+add
+
+core.write_compiled_resource.php
+file
+
+
+
+add
+
+core.load_plugins.php
+file
+
+
+
+add
+
+core.create_dir_structure.php
+file
+
+
+
+add
+
+core.is_secure.php
+file
+
+
+
+add
+
+core.is_trusted.php
+file
+
+
+
+add
+
+core.assemble_plugin_filepath.php
+file
+
+
+
+add
+
+core.run_insert_handler.php
+file
+
+
+
+add
+
+core.get_microtime.php
+file
+
+
+
+add
+
+core.write_file.php
+file
+
+
+
+add
+
+core.smarty_include_php.php
+file
+
+
+
+add
+
+core.get_php_resource.php
+file
+
+
+
+add
+
+core.display_debug_console.php
+file
+
+
+
+add
+
+core.read_cache_file.php
+file
+
+
+
+add
+
+core.process_compiled_include.php
+file
+
+
+
+add
+
+core.get_include_path.php
+file
+
+
+
+add
+

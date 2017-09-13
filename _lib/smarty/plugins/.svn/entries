@@ -1,0 +1,343 @@
+10
+
+dir
+0
+http://svn.crisdev.eti.br/escoladomax/cms/_lib/smarty/plugins
+http://svn.crisdev.eti.br/escoladomax
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ceeab0a5-5d5c-4194-80ce-2bcb3b8788f2
+
+function.html_image.php
+file
+
+
+
+add
+
+modifier.spacify.php
+file
+
+
+
+add
+
+modifier.count_sentences.php
+file
+
+
+
+add
+
+modifier.count_paragraphs.php
+file
+
+
+
+add
+
+compiler.assign.php
+file
+
+
+
+add
+
+modifier.escape.php
+file
+
+
+
+add
+
+modifier.strip.php
+file
+
+
+
+add
+
+modifier.count_words.php
+file
+
+
+
+add
+
+modifier.cat.php
+file
+
+
+
+add
+
+modifier.debug_print_var.php
+file
+
+
+
+add
+
+modifier.replace.php
+file
+
+
+
+add
+
+function.eval.php
+file
+
+
+
+add
+
+modifier.string_format.php
+file
+
+
+
+add
+
+modifier.strip_tags.php
+file
+
+
+
+add
+
+modifier.nl2br.php
+file
+
+
+
+add
+
+modifier.default.php
+file
+
+
+
+add
+
+modifier.capitalize.php
+file
+
+
+
+add
+
+modifier.date_format.php
+file
+
+
+
+add
+
+function.cycle.php
+file
+
+
+
+add
+
+modifier.count_characters.php
+file
+
+
+
+add
+
+modifier.lower.php
+file
+
+
+
+add
+
+block.textformat.php
+file
+
+
+
+add
+
+function.popup.php
+file
+
+
+
+add
+
+function.assign_debug_info.php
+file
+
+
+
+add
+
+function.html_radios.php
+file
+
+
+
+add
+
+outputfilter.trimwhitespace.php
+file
+
+
+
+add
+
+function.html_table.php
+file
+
+
+
+add
+
+modifier.wordwrap.php
+file
+
+
+
+add
+
+modifier.regex_replace.php
+file
+
+
+
+add
+
+function.counter.php
+file
+
+
+
+add
+
+function.html_options.php
+file
+
+
+
+add
+
+shared.make_timestamp.php
+file
+
+
+
+add
+
+function.html_select_time.php
+file
+
+
+
+add
+
+function.mailto.php
+file
+
+
+
+add
+
+function.debug.php
+file
+
+
+
+add
+
+function.popup_init.php
+file
+
+
+
+add
+
+function.fetch.php
+file
+
+
+
+add
+
+function.math.php
+file
+
+
+
+add
+
+modifier.indent.php
+file
+
+
+
+add
+
+modifier.truncate.php
+file
+
+
+
+add
+
+function.html_select_date.php
+file
+
+
+
+add
+
+shared.escape_special_chars.php
+file
+
+
+
+add
+
+function.html_checkboxes.php
+file
+
+
+
+add
+
+modifier.upper.php
+file
+
+
+
+add
+
+function.config_load.php
+file
+
+
+
+add
+

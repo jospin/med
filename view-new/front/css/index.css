@@ -1,0 +1,14 @@
+.feature-title {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ff5a00;
+	margin-bottom:20px;
+}
+
+.thumbnail h3{
+	font-size:17px;
+	text-align:center;
+}
+
+.thumbnail-feature {
+	height:470px;
+}
