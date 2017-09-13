@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !medeirosimoveis/
+RewriteRule (.*) http://localhost/$1 [L]
