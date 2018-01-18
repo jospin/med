@@ -6,7 +6,7 @@
 	
 	$imovel = new imovel($_REQUEST['id_imovel']);
 	$output = $imovel->get();
-//	$outputDetalhes = $imovel->getDetalhes();
+	$outputDetalhes = $imovel->getDetalhes();
 	$imoveisInner = $imoveisDao->getInnerImoveisPraia($output->imovel->id_praia);
 
 	foreach($imoveisInner as $ii){
@@ -24,7 +24,6 @@
 	$praiaLiteral = Util::removeAcento($output->imovel->praia);
 	$praiaLiteral = strtolower($praiaLiteral);
 	$praiaLiteral = str_replace(" ", "_", $praiaLiteral);
-
 
 	$smarty = new SmartyClass('front');
 	$smarty->assign("imovel",$output);

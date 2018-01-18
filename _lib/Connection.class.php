@@ -5,23 +5,22 @@ class Connection {
 	private static $dbType = "mysql";
 
 	private static $host = "localhost";
-	private static $user = "medeirosimoveis";
-	private static $pass = "m4e8d47";
+	private static $user = "root";
+	private static $pass = "keyrus123";
 	private static $db = "medeirosimoveis_dev";
 
 	private static $persistencia = false;
 
 	public function __constructor($persistencia = false){
-
+			
 		if($persistencia != false) { self::$persistencia = true; }
 		
 	}
 
 	public static function getConnection(){
-
 		try{
 
-			self::$con = new PDO(self::$dbType.":host=".self::$host.";dbname=".self::$db,self::$user, self::$pass, array(PDO::ATTR_PERSISTENT=> self::$persistencia, PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+			self::$con = new PDO(self::$dbType.":host=".self::$host.";dbname=".self::$db,self::$user, self::$pass, array(PDO::ATTR_PERSISTENT=> self::$persistencia, 1002 => "SET NAMES utf8"));
 			self::$con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 			return self::$con;
 

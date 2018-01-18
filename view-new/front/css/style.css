@@ -1,32 +1,93 @@
+@media (min-width: 768px)
+.navbar-fixed-bottom .navbar-nav, .navbar-fixed-bottom .navbar-header {
+    display: block;
+}
+
 @font-face {
      font-family: Roboto;
      src: url('../font/Roboto-Regular.ttf');
 }
 
 body {
-	padding-top: 55px;
-	padding-bottom:30px;
-	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif
+  padding-top: 55px;
+  padding-bottom:30px;
+  font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif
 }
+
+.thumbnail-feature {
+  height: 450px;
+}
+.featured{
+  padding-bottom: 30px !important;
+}
+
 /* navbar */
 .navbar-inverse{
-	background-color: #007aa5;
-	border-color: #ff5a00;
+  background-color: #007aa5;
+  border-color: #ff5a00;
 }
 
 .navbar-inverse .navbar-brand{
-	color: #fff;
-	font-weight:bold;
+  color: #fff;
+  font-weight:bold;
 }
 
 .navbar-inverse .navbar-nav>li>a{
-	color: #fff;
+  color: #fff;
 }
 
 .navbar-medimoveis {
-	background-color: #ff5a00;
+  background-color: #ff5a00;
 }
 .medimoveis-value {
-	color:#ff5a00;
-	font-weight:bold;
+  color:#ff5a00;
+  font-weight:bold;
+}
+
+.force-to-bottom {
+  position:absolute;
+  # bottom: 5%;
+  float:left;
+  width: 100%;
+}
+
+/** Title */
+.feature-title {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ff5a00;
+  margin-bottom:20px;
+}
+
+
+/** Navbar footer */
+.navbar.navbar-fixed-bottom {
+    border-top: 1px solid #ddd;
+}
+.navbar {
+  border: 0;
+    background-color: #007aa5;
+}
+.swag-line-bottom:before {
+    top: auto;
+    bottom: 0;
+}
+.swag-line:before {
+	content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    z-index: 2;
+    background-color: #ff5a00;
+}
+.copyright, .copyright a{
+  padding-top: 20px;
+  color: white;
+  top: 50%
+}
+
+dt{
+  text-align: left !important;
 }

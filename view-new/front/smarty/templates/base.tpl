@@ -17,8 +17,8 @@
     <link href="view-new/front/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/imoveis/content/favicon.ico" />
 
-    <link href="/medeirosimoveis/view-new/front/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="/medeirosimoveis/view-new/front/css/{$self}.css" rel="stylesheet" type="text/css" />
+    <link href="view-new/front/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="view-new/front/css/{$self}.css" rel="stylesheet" type="text/css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,9 +26,25 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="view-new/front/jQuery-3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="view-new/front/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="view-new/front/js/{$self}.js"></script>
+
+
   </head>
   <body>
   {include file="includes/header.tpl"}
-  <div class="container">
+  <div class="container"> 
     {$page}
   </div>
+
+<nav class="navbar navbar-default navbar-fixed-bottom swag-line swag-line-bottom" role="navigation">
+    {include file="includes/footer.tpl"}
+</nav>
+
+
+  {literal}
+  <script type="text/javascript"> Cufon.now(); </script> <!-- to fix cufon problems in IE browser -->
+  {/literal}
+  </body>
+</html>

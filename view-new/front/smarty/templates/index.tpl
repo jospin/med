@@ -14,44 +14,22 @@
 				{/if}
 			</h3>
 			<img src="images/imoveis/{$imovel->imovel->id_imovel}/{$imovel->imovel->praiaLiteral}_img_home_{$imovel->imovelFotos.0->foto}" alt="" />
-			<div class="caption">
-//Destaque
-// Valor em vermelho
-// Piscina
-// Churasqueira (olhar admin)
-// Forno (olhar admin)
-// Dormitório e suítes
-// Ar condicionado (olhar admin)
-// Distancia da praia (olhar admin)
-// Area se terreno (olhar admin)
-// Capacidade se Temporada
-// Sala de jantar (olhar admin)
-// Sala de estar (olhar admin)
-// Sala de visita (olhar admin)
-// Cozinha gourmet ou americana; (olhar admin)
-// Dispensa (olhar admin)
-// Dependencia de empregada (olhar admin)
-
-				<p>
-					<span class="left">Propriedade:</span>	{if $imovel->imovel->tipo == "C"} Casa {else} Terreno {/if}
-				</p>
-				<p>
-					<span class="left">Quartos:</span>{if empty($imovel->imovelDetalhes.suites.valor)} - {else} {$imovel->imovelDetalhes.suites.valor} {/if}
-				</p>
-				<p>
-					<span class="left">Suites:</span>{if empty($imovel->imovelDetalhes.piscina.valor)} - {else} {$imovel->imovelDetalhes.suites.valor} {/if}
-				</p>
-				<p>
-					<a href="imovel.php?id_imovel={$imovel->imovel->id_imovel}" class="btn btn-primary btn-lg" role="button">+ informações</a>
-				</p>
-			</div>
-		</div>	
+			<dl class="dl-horizontal">
+				<dt>Propriedade:</dt>
+				<dd>{if $imovel->imovel->tipo == "C"} Casa {else} Terreno {/if}</dd>
+				<dt>Quartos:</dt>
+				<dd>{if empty($imovel->imovelDetalhes.suites.valor)} - {else} {$imovel->imovelDetalhes.suites.valor} {/if}
+				</dd>
+				<dt>Suites:</dt>
+				<dd>{if empty($imovel->imovelDetalhes.piscina.valor)} - {else} {$imovel->imovelDetalhes.suites.valor} {/if}
+				</dd>
+				<dt>Capacidade:</dt>
+				<dd>{if $if->imovel->capacidade_pessoas == "" && $if->imovel->capacidade_pessoas  == 0} - {else} {$if->imovel->capacidade_pessoas} pessoas {/if}
+				</dd>
+				<p><a href="imovel.php?id_imovel={$imovel->imovel->id_imovel}" class="btn btn-primary btn-lg" role="button">+ informações</a></p>
+			</dl>
+		</div>
 	</div>
 	<!-- end cycle -->
 	{/foreach}
-
-	<div class="col-md-2">
-	</div>
-	<div class="col-md-2 result-feature-right">
-	</div>
 </div>
