@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2017-07-02 20:33:13
+<?php /* Smarty version 2.6.26, created on 2018-01-17 19:52:08
          compiled from imovel.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'number_format', 'imovel.tpl', 70, false),)), $this); ?>

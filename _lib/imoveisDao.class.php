@@ -96,7 +96,6 @@ class imoveisDao extends Dao
 	
 	public function getAllCasasCompra($id_praia = null)
 	{
-		$sql_praia = "";
 		if($id_praia){
 			$sql_praia = "id_praia=$id_praia and";
 		}

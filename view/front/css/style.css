@@ -61,8 +61,8 @@ h5 {font-size:14px; line-height:18px;}
 h6 { font-size:11px; line-height:16px;}
 
 /* links */
-a, a:visited {color:#ff5a00; text-decoration:none; font-weight:normal; }
-a:hover{color:#ff5a00; text-decoration:none;}
+a, a:visited {color:#14bbea; text-decoration:none; font-weight:normal; }
+a:hover{color:#14bbea; text-decoration:none;}
 a img{border:none}
 /* float align */
 .alignleft,
@@ -389,8 +389,7 @@ ul.disc li{
 	padding-left:15px;
 }
 
-.box_price {color:#ff5a00; font-weight: bold; z-index: 999; position: relative; top: 15px; right:40px;}
-.box_square {width:168px; padding: 10px; background:#fff; border:1px solid #ff5a00;}
+
 
 /*== sideright & widget ==*/
 
@@ -399,8 +398,7 @@ ul.disc li{
 .sidebar .widget-title{font-size:26px; line-height:26px; margin-bottom:10px; border-bottom:1px solid #d8d8d8; padding-bottom:5px;}
 .sidebar ul{list-style-type:none; padding:0 ; margin:0; list-style-position:outside}
 .sidebar ul li{list-style-type:none; padding:0 ; margin:0; font-size:11px;}
-.sidebar ul li li{no-repeat 0 6px; padding:0 0 5px 5px; }
-.sidebar ul li i {font-size:14px; color:#ff5a00; margin-right:10px; font-weight:bold;}
+.sidebar ul li li{background:url(../images/arrow.png) no-repeat 0 6px; padding:0 0 5px 15px; }
 .sidebar ul li li{display:inline-block; zoom:1; *display:inline; vertical-align:top;  width:115px; margin-right:18px;}
 .sidebar ul li .li_140{display:inline-block; zoom:1; *display:inline; vertical-align:top;  width:140px; margin-right:18px;}
 .sidebar ul li a, .sidebar ul li a:visited, .widget-container ul li a{color:#7e7e7e; font-size:11px; }
@@ -454,16 +452,12 @@ p:last-child { margin-bottom:0px!important;}
 	background-position:0 4px;
 	}
 
-.button-list{width:110px; float:left; padding:15px 7px; text-align:center; font-size:11px; cursor:pointer; margin-bottom:8px; margin-left:10px;} 
-.background-orange{background:#ff5a00; color:#fff;}
-.background-green{background:green; color:#fff;}
 
 #footer-left .one_fourth{width:19.4%; }
 #footer-left .one_fourth{margin-right:3.5%; float:left; }
 
 #newsLetter .inputbox{ border:1px solid #dddddd; padding:8px; margin-right:0px; width:250px; }
-#newsLetter .button{color:#fff; background-color:#14bbea; border:0px; margin-left:175px!important;}
-
+#newsLetter .button{ width:94px; padding:3px 0px; text-align:center; font-size:16px; color:#fff; background-color:#14bbea; border:0px;  cursor:pointer; margin-left:175px!important;}
 
 #copyright{ height:40px; margin-top:31px; background-repeat:no-repeat; font-size:11px;  font-family:Arial, Helvetica, sans-serif; text-align:center; padding-top:20px; float:left; }
 
@@ -475,15 +469,12 @@ p:last-child { margin-bottom:0px!important;}
 .four_column p{margin-bottom:18px;}
 
 .four_column_properties{list-style-type:none; margin:0px; padding:0px;}
-.four_column_properties .image_list {float:left; width:270px;}
-.four_column_properties .list_value {color:#ff5a00; font-weight: bold;}
-.four_column_properties .colun_content{list-style-type:none; width:90%; margin:0px 21px 30px 0px; float:left; background:#fcfcfc; border:1px solid #ededed; padding:19px;}
+.four_column_properties li{list-style-type:none; width:184px; margin:0px 21px 30px 0px; float:left; background:#f6f6f6; border:1px solid #ededed; padding:19px;}
 .four_column_properties li img{ margin-bottom:15px;}
 .four_column_properties p{margin-bottom:18px;}
-ul.box_text{ margin:0px!important; padding:0px!important;}
-ul.box_text li{ border:0px!important; width:130px; padding:4px 15px!important; margin:0px!important; font-size:11px; color:#7e7e7e; list-style-type:none; text-align:right !important; clear:both; font-weight:bold;}
+ul.box_text{ margin:0px!important; padding:0px!important;  }
+ul.box_text li{ border:0px!important; border-bottom:1px solid #e9e8e8!important;  padding:2px 0px!important; margin:0px!important; font-size:11px; color:#7e7e7e; list-style-type:none; text-align:right !important; clear:both; font-weight:normal;}
 ul.box_text .left{float:left; font-weight:bold;}
-ul.box_text .fa{font-size:25px;}
 
 .three_column{list-style-type:none; margin:0px; padding:0px;}
 .three_column li{list-style-type:none;width:31.26%; margin-right:3.1%; float:left;}

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2017-07-02 20:33:14
+<?php /* Smarty version 2.6.26, created on 2018-01-17 19:52:57
          compiled from includes/footer.tpl */ ?>
 <div id="footer-left">
 					<div class="one_fourth">

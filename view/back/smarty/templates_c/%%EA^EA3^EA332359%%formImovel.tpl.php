@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2017-07-02 20:37:43
+<?php /* Smarty version 2.6.26, created on 2018-01-17 15:27:22
          compiled from formImovel.tpl */ ?>
 <form method="post" name="formImovel" action="formImovelAction.php" enctype="multipart/form-data">
 <input type="hidden" name="mi_imoveis[id_imovel]" value="<?php echo $this->_tpl_vars['imovel']->id_imovel; ?>

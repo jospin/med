@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2017-07-02 20:33:14
+<?php /* Smarty version 2.6.26, created on 2018-01-17 19:52:57
          compiled from base.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'number_format', 'base.tpl', 113, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'number_format', 'base.tpl', 109, false),)), $this); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <link rel="shortcut icon" href="images/imoveis//content/favicon.ico" />
@@ -12,32 +12,28 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'number_form
 <meta name="title" content="" />
 <meta name="description" content="" />
 <title>Imoveis no Litoral Norte - Medeiros Imoveis</title>
-<link rel="shortcut icon" href="images/imoveis/content/favicon.ico" />
+<link rel="shortcut icon" href="images/imoveis//content/favicon.ico" />
 <!-- ////////////////////////////////// -->
 <!-- //      Start Stylesheets       // -->
 <!-- ////////////////////////////////// -->
-<link href="/medeirosimoveis/view/front/css/style.css" rel="stylesheet" type="text/css" />
-<link href="/medeirosimoveis/view/front/css/<?php echo $this->_tpl_vars['self']; ?>
+<link href="/view/front/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/view/front/css/<?php echo $this->_tpl_vars['self']; ?>
 .css" rel="stylesheet" type="text/css" />
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
-<!-- ////////////////////////////////// -->
-<!-- ///////// FONT AWESOME /////////// -->
-<!-- ////////////////////////////////// -->
-<link href="/medeirosimoveis/_lib/js/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/jquery.form.js"></script>  
+<script type="text/javascript" src="/view/front/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/view/front/js/jquery.form.js"></script>  
 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/cufon-yui.js"></script>
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/PT_Sans_400.font.js"></script>
+<script type="text/javascript" src="/view/front/js/cufon-yui.js"></script>
+<script type="text/javascript" src="/view/front/js/PT_Sans_400.font.js"></script>
 <!--<script type="text/javascript" src="/view/front/js/custom/<?php echo $this->_tpl_vars['self']; ?>
 .js"></script> -->
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/fade.js"></script>
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/contact.js"></script>
+<script type="text/javascript" src="/view/front/js/fade.js"></script>
+<script type="text/javascript" src="/view/front/js/contact.js"></script>
 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="/view/front/js/jquery.prettyPhoto.js"></script>
 
 <?php echo '
 
@@ -47,10 +43,10 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'number_form
 '; ?>
 
 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/jquery.cycle.all.min.js"></script>
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/hoverIntent.js"></script> 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/superfish.js"></script> 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/supersubs.js"></script>
+<script type="text/javascript" src="/view/front/js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="/view/front/js/hoverIntent.js"></script> 
+<script type="text/javascript" src="/view/front/js/superfish.js"></script> 
+<script type="text/javascript" src="/view/front/js/supersubs.js"></script>
 
 
 <?php echo '
@@ -73,7 +69,7 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'number_form
 </script>
 '; ?>
 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="/view/front/js/jquery.cycle.all.min.js"></script>
 
 <!--[if IE 6]>
 <script src="/view/front/js/DD_belatedPNG.js"></script>

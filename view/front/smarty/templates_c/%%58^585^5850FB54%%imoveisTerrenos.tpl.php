@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2017-06-25 22:05:57
+<?php /* Smarty version 2.6.26, created on 2018-01-17 13:47:57
          compiled from imoveisTerrenos.tpl */ ?>
 <div id="content" class="full_85">
 			<h2 class="underline">Terrenos</h2>

@@ -3,7 +3,7 @@
 			<ul class="four_column_properties">
 					{foreach item=i from=$imoveis}
 					<li><a href="imovel.php?id_imovel={$i->imovel->id_imovel}">
-					  <img src="images/imoveis/{$i->imovel->id_imovel}/{$i->imovel->praiaLiteral}_img_list_{$i->imovelFotos.0->foto}" alt="" />
+					  <img src="images/imoveis/{$i->imovel->id_imovel}/{$i->imovel->praiaLiteral}_img_featured_{$i->imovelFotos.0->foto}" alt="" />
 					  <h6><a href="imovel.php?id_imovel={$i->imovel->id_imovel}">{$i->imovel->praia}</a></h6>
 					  <ul class="box_text">
 					  	<a style="color:#171717" href="imovel.php?id_imovel={$i->imovel->id_imovel}">

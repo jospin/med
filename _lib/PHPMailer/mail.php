@@ -18,7 +18,7 @@ $name = $_REQUEST['name'];
 
 $mail->setFrom($email, $name);
 #$mail->addAddress('medeiros.imoveis@ig.com.br', 'Medeiros Imoveis');     // Add a recipient
-$mail->addAddress('cristianmedeiros@gmail.com', "gg");     // Add a recipient
+$mail->addAddress('lucien.carbonare@gmail.com', "gg");     // Add a recipient
 $mail->addReplyTo($email, $name);
 
 $mail->isHTML(true);                                  // Set email format to HTML
@@ -29,7 +29,7 @@ if(!empty($fone)){
 $fone = "Telefone: ".$fone;
 }
 $mail->Subject = '[Contato] Mensagem enviada pelo site';
-$mail->Body    = 'Referencia: '.$_REQUEST['referencia'].'<br><br>'.$_REQUEST['msg']."<br><br>".$fone;
+$mail->Body    = 'Referencia: '.$_REQUEST['ref'].'<br><br>'.$_REQUEST['msg']."<br><br>".$fone;
 
 if(!$mail->send()) {
     echo 'Message could not be sent.';

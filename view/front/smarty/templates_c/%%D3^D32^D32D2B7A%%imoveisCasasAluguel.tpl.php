@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2017-06-25 22:05:48
+<?php /* Smarty version 2.6.26, created on 2018-01-17 19:51:44
          compiled from imoveisCasasAluguel.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'number_format', 'imoveisCasasAluguel.tpl', 15, false),)), $this); ?>

@@ -8,30 +8,26 @@
 <meta name="title" content="" />
 <meta name="description" content="" />
 <title>Imoveis no Litoral Norte - Medeiros Imoveis</title>
-<link rel="shortcut icon" href="images/imoveis/content/favicon.ico" />
+<link rel="shortcut icon" href="images/imoveis//content/favicon.ico" />
 <!-- ////////////////////////////////// -->
 <!-- //      Start Stylesheets       // -->
 <!-- ////////////////////////////////// -->
-<link href="/medeirosimoveis/view/front/css/style.css" rel="stylesheet" type="text/css" />
-<link href="/medeirosimoveis/view/front/css/{$self}.css" rel="stylesheet" type="text/css" />
+<link href="/view/front/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/view/front/css/{$self}.css" rel="stylesheet" type="text/css" />
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
-<!-- ////////////////////////////////// -->
-<!-- ///////// FONT AWESOME /////////// -->
-<!-- ////////////////////////////////// -->
-<link href="/medeirosimoveis/_lib/js/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/jquery.form.js"></script>  
+<script type="text/javascript" src="/view/front/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/view/front/js/jquery.form.js"></script>  
 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/cufon-yui.js"></script>
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/PT_Sans_400.font.js"></script>
+<script type="text/javascript" src="/view/front/js/cufon-yui.js"></script>
+<script type="text/javascript" src="/view/front/js/PT_Sans_400.font.js"></script>
 <!--<script type="text/javascript" src="/view/front/js/custom/{$self}.js"></script> -->
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/fade.js"></script>
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/contact.js"></script>
+<script type="text/javascript" src="/view/front/js/fade.js"></script>
+<script type="text/javascript" src="/view/front/js/contact.js"></script>
 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="/view/front/js/jquery.prettyPhoto.js"></script>
 
 {literal}
 
@@ -40,10 +36,10 @@
 </script>
 {/literal}
 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/jquery.cycle.all.min.js"></script>
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/hoverIntent.js"></script> 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/superfish.js"></script> 
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/supersubs.js"></script>
+<script type="text/javascript" src="/view/front/js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="/view/front/js/hoverIntent.js"></script> 
+<script type="text/javascript" src="/view/front/js/superfish.js"></script> 
+<script type="text/javascript" src="/view/front/js/supersubs.js"></script>
 
 
 {literal}
@@ -65,7 +61,7 @@
  
 </script>
 {/literal}
-<script type="text/javascript" src="/medeirosimoveis/view/front/js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="/view/front/js/jquery.cycle.all.min.js"></script>
 
 <!--[if IE 6]>
 <script src="/view/front/js/DD_belatedPNG.js"></script>
@@ -113,8 +109,8 @@
 								<div class="slider-price">{if $ii->imovel->exibir_valor == "S" && $ii->imovel->valor > 0}R$ {$ii->imovel->valor|number_format:2:",":"."}{else}{/if}</div>
 							</div>
 						</div>
-					</div>
-					<!-- end cycle -->
+					</div><!-- end cycle -->
+					
 					{/foreach}
 					
 				</div><!-- end #slideshow -->
