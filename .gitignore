@@ -1,2 +1,3 @@
 images/imoveis*
-*/templates_c/*
+view/front/smarty/templates_c/*
+view-new/front/smarty/templates_c/*
