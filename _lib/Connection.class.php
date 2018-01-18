@@ -5,8 +5,8 @@ class Connection {
 	private static $dbType = "mysql";
 
 	private static $host = "localhost";
-	private static $user = "medeirosimoveis";
-	private static $pass = "m4e8d47";
+	private static $user = "########";
+	private static $pass = "#######";
 	private static $db = "medeirosimoveis_dev";
 
 	private static $persistencia = false;
