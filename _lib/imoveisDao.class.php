@@ -96,6 +96,7 @@ class imoveisDao extends Dao
 	
 	public function getAllCasasCompra($id_praia = null)
 	{
+		$sql_praia = "";
 		if($id_praia){
 			$sql_praia = "id_praia=$id_praia and";
 		}
@@ -149,6 +150,7 @@ class imoveisDao extends Dao
 
 	public function getAllCasasAluguel($id_praia = null)
 	{
+		$sql_praia = "";
 		if($id_praia){
 			$sql_praia = "id_praia=$id_praia and";
 		}
@@ -176,6 +178,7 @@ class imoveisDao extends Dao
 	
 	public function getAllTerrenos($id_praia = null)
 	{
+		$sql_praia = "";
 		if($id_praia){
 			$sql_praia = "id_praia=$id_praia and";
 		}
@@ -239,7 +242,7 @@ class imoveisDao extends Dao
 						i.publicar='S'
 						and i.id_praia=$id_praia
 					order by rand()
-					limit 2
+					limit 3
 		";
 
 		return $this->sql($sql);

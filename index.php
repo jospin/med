@@ -10,28 +10,27 @@
 		$praiaLiteralSlider = Util::removeAcento($imovelSliderInner->imovel->praia);
 		$praiaLiteralSlider = strtolower($praiaLiteralSlider);
 		$praiaLiteralSlider = str_replace(" ", "_", $praiaLiteralSlider);
+		
+		switch ($imovelSliderInner->imovel->categoria) {
+			case 'V':
+				$imovelSliderInner->imovel->categoria = "à venda";
+				break;
+			case 'T':
+				$imovelSliderInner->imovel->categoria = "para temporada";
+				break;
+			case 'A':
+				$imovelSliderInner->imovel->categoria = "de aluguel";
+				break;
+			default:
+				$imovelSliderInner->imovel->categoria = "";
+				break;
+		}
 
 		$imovelSliderInner->imovel->praiaLiteral = $praiaLiteralSlider;
 		$imoveisSlider[] = $imovelSliderInner;
 	}
-	
-	
-	$imoveisFeatured = $imoveisDao->getHomeFeatured();
-	foreach($imoveisFeatured as $imoveisF){
-		$imovel = new imovel($imoveisF->id_imovel);
-
-		$imovelInner = $imovel->get();
-		
-		$praiaLiteralFeatured = Util::removeAcento($imovelInner->imovel->praia);
-		$praiaLiteralFeatured = strtolower($praiaLiteralFeatured);
-		$praiaLiteralFeatured = str_replace(" ", "_", $praiaLiteralFeatured);
-		$imovelInner->imovel->praiaLiteral = $praiaLiteralFeatured;
-		
-		$imoveisHomeFeatured[] = $imovelInner; 
-
-	}
 
 	$smarty = new SmartyClass('front');
-$smarty->assign("imoveisSlider",$imoveisSlider);
-	$smarty->assign("imoveisFeatured",$imoveisHomeFeatured);
+	$smarty->assign("imoveisSlider", $imoveisSlider);
+
 	$smarty->fetcher($_SERVER['PHP_SELF']);

@@ -7,10 +7,10 @@ class SmartyClass extends Smarty {
         $innerPath = substr(realpath(__FILE__),0,strpos(realpath(__FILE__),"_lib"));
 		$this->Smarty();
 
-		$this->template_dir = $innerPath.'view/'.$path.'/smarty/templates/';
-		$this->compile_dir  = $innerPath.'view/'.$path.'/smarty/templates_c/';
-		$this->config_dir   = $innerPath.'view/'.$path.'/smarty/configs/';
-		$this->cache_dir    = $innerPath.'view/'.$path.'/smarty/cache/';
+		$this->template_dir = $innerPath.'view-new/'.$path.'/smarty/templates/';
+		$this->compile_dir  = $innerPath.'view-new/'.$path.'/smarty/templates_c/';
+		$this->config_dir   = $innerPath.'view-new/'.$path.'/smarty/configs/';
+		$this->cache_dir    = $innerPath.'view-new/'.$path.'/smarty/cache/';
 
 		$this->caching = false;
     }
